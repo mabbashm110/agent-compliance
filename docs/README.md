@@ -2,18 +2,18 @@
 
 🛡️ **Open-Source Enterprise-Grade Governance & Policy Enforcement for Autonomous Agent Swarms**
 
-**Version:** v0.1 | **Published Date:** 2026-07-04 | ⭐ **Star us on GitHub:** [mabbashm110/agent-compliance](https://github.com/mabbashm110/agent-compliance)
+**Version:** v1.0.0 | **NPM:** [![npm version](https://img.shields.io/npm/v/@mabbashm110/agent-compliance.svg)](https://www.npmjs.com/package/@mabbashm110/agent-compliance) | ⭐ **Star us on GitHub:** [mabbashm110/agent-compliance](https://github.com/mabbashm110/agent-compliance)
 
 Implementing AI agents (Hermes, OpenClaw, and GBrain databases) in regulated industries—such as healthcare, banking, and insurance—demands strict alignment with compliance frameworks like **HIPAA** and **SOC2**.
 
-`agent-compliance` is a lightweight, zero-dependency, and high-performance policy engine designed specifically to protect sensitive data at every point of the AI execution pipeline: from gateway messages to agent trajectories and database memory layers. It provides the security boundaries required to transition AI agent deployments from experimental sandboxes to fully certified enterprise production workloads.
+`@mabbashm110/agent-compliance` is a lightweight, zero-dependency, and high-performance policy engine designed specifically to protect sensitive data at every point of the AI execution pipeline: from gateway messages to agent trajectories and database memory layers. It provides the security boundaries required to transition AI agent deployments from experimental sandboxes to fully certified enterprise production workloads.
 
 ---
 
 ## 📋 Table of Contents
 - [1. Enterprise Value Proposition](#-enterprise-value-proposition)
 - [2. Directory Layout](#-directory-layout)
-- [3. Installation & Local Setup](#3-installation--local-setup)
+- [3. Installation & Setup](#3-installation--setup)
 - [4. E2E Testing Scenarios](#4-e2e-testing-scenarios)
 - [5. Integration Connection Models](#5-integration-connection-models)
 - [6. Configuring Agents for Compliance](#6-configuring-agents-for-compliance)
@@ -50,17 +50,24 @@ compliance/
 
 ---
 
-## 1. Installation & Local Setup
+## 1. Installation & Setup
 
-The package is packaged as a local NPM project. You can link and run commands globally.
+You can install `agent-compliance` directly from the public npm registry or set it up locally for development.
 
-### Step 1: Install Dependencies (None Required) & Link CLI
+### Option A: Install Globally via NPM (Recommended)
+To install the CLI tool globally:
+```bash
+npm install -g @mabbashm110/agent-compliance
+```
+*Note: This exposes the `compliance` command globally on your terminal path. You can verify it by running `compliance status`.*
+
+### Option B: Local Setup & Link (For Development/Contribution)
 Run the following commands inside the `compliance/` folder to install the package and link the binary globally:
 ```bash
 cd compliance
 npm link
 ```
-*Note: This exposes the `compliance` command globally on your terminal path. If permissions are restricted, you can run it via `node bin/compliance.js`.*
+*Note: If permissions are restricted, you can run the CLI directly via `node bin/compliance.js`.*
 
 ### Step 2: Initialize Compliance files
 Initialize the workspace to copy baseline HIPAA/SOC2 profiles and generate the master encryption key:

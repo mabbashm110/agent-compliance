@@ -1,6 +1,9 @@
 {
-  "name": "agent-compliance",
+  "name": "@mabbashm110/agent-compliance",
   "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "Zero-dependency compliance CLI engine for OpenClaw, Hermes, and GBrain",
   "main": "bin/compliance.js",
   "bin": {

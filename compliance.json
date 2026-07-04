@@ -200,6 +200,26 @@
       "timestamp": "2026-07-04T18:22:02.295Z",
       "type": "VIOLATION_LOGGED",
       "details": "Unencrypted PII/PHI leak detected in database page: wiki/public-sharing-page"
+    },
+    {
+      "timestamp": "2026-07-04T18:48:10.781Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Tool 'web_search' is explicitly blocked under HIPAA controls."
+    },
+    {
+      "timestamp": "2026-07-04T18:48:10.853Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Agent-to-Agent Transfer Blocked: Target agent 'marketing-agent' is not attested to process PHI under HIPAA."
+    },
+    {
+      "timestamp": "2026-07-04T18:48:10.923Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Agent-to-Platform Blocked: TLS version is TLS-1.2. HIPAA requires minimum TLS-1.3."
+    },
+    {
+      "timestamp": "2026-07-04T18:48:11.111Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Unencrypted PII/PHI leak detected in database page: wiki/public-sharing-page"
     }
   ],
   "violations": [
@@ -403,6 +423,27 @@
     },
     {
       "timestamp": "2026-07-04T18:22:02.294Z",
+      "reason": "Unencrypted PII/PHI leak detected in database page: wiki/public-sharing-page",
+      "source": "gbrain_dream_cycle",
+      "pageId": "wiki/public-sharing-page"
+    },
+    {
+      "timestamp": "2026-07-04T18:48:10.780Z",
+      "decision": "BLOCK",
+      "reason": "Tool 'web_search' is explicitly blocked under HIPAA controls."
+    },
+    {
+      "timestamp": "2026-07-04T18:48:10.852Z",
+      "decision": "BLOCK",
+      "reason": "Agent-to-Agent Transfer Blocked: Target agent 'marketing-agent' is not attested to process PHI under HIPAA."
+    },
+    {
+      "timestamp": "2026-07-04T18:48:10.922Z",
+      "decision": "BLOCK",
+      "reason": "Agent-to-Platform Blocked: TLS version is TLS-1.2. HIPAA requires minimum TLS-1.3."
+    },
+    {
+      "timestamp": "2026-07-04T18:48:11.110Z",
       "reason": "Unencrypted PII/PHI leak detected in database page: wiki/public-sharing-page",
       "source": "gbrain_dream_cycle",
       "pageId": "wiki/public-sharing-page"
