@@ -1,0 +1,22 @@
+{
+  "name": "agent-compliance",
+  "version": "1.0.0",
+  "description": "Zero-dependency compliance CLI engine for OpenClaw, Hermes, and GBrain",
+  "main": "bin/compliance.js",
+  "bin": {
+    "compliance": "./bin/compliance.js"
+  },
+  "scripts": {
+    "test": "node mocks/scenario_no_gbrain.js && node mocks/scenario_with_gbrain.js"
+  },
+  "keywords": [
+    "compliance",
+    "security",
+    "redaction",
+    "encryption",
+    "hipaa",
+    "soc2"
+  ],
+  "author": "github.com/mabbashm110",
+  "license": "MIT"
+}

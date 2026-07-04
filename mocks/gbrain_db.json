@@ -1,0 +1,18 @@
+{
+  "records/patient-alice": {
+    "id": "records/patient-alice",
+    "classification": "phi",
+    "content": "299c76745b688eb8f72ca4059e19a89b0932de6a266079896b6aea65f1037b670dacacede19d2f76ee12fb3b51148efebd22bd487cf06633298c39",
+    "encrypted": true,
+    "timestamp": "2026-07-04T18:22:02.258Z",
+    "iv": "61c74de4b462ca005fb5726a",
+    "authTag": "42ef3ee5426172972537e46b5b23518b"
+  },
+  "wiki/public-sharing-page": {
+    "id": "wiki/public-sharing-page",
+    "classification": "public",
+    "content": "Shared note: contact marketing coordinator at john.doe@company.com or call 555-9011.",
+    "encrypted": false,
+    "timestamp": "2026-07-04T18:22:02.260Z"
+  }
+}

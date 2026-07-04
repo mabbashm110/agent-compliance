@@ -1,0 +1,430 @@
+{
+  "initializedAt": "2026-07-04T17:43:50.305Z",
+  "encryptionKey": "7e015a5dbfe068fd5774828db16e52a46541b824e5b17fa6058b77fe072ff8b0",
+  "activeProfiles": [
+    "HIPAA",
+    "SOC2"
+  ],
+  "auditLogs": [
+    {
+      "timestamp": "2026-07-04T17:44:13.008Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Tool 'web_search' is explicitly blocked under HIPAA controls."
+    },
+    {
+      "timestamp": "2026-07-04T17:44:13.081Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Agent-to-Agent Transfer Blocked: Target agent 'marketing-agent' is not attested to process PHI under HIPAA."
+    },
+    {
+      "timestamp": "2026-07-04T17:44:13.153Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Agent-to-Platform Blocked: TLS version is TLS-1.2. HIPAA requires minimum TLS-1.3."
+    },
+    {
+      "timestamp": "2026-07-04T17:45:08.714Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Tool 'web_search' is explicitly blocked under HIPAA controls."
+    },
+    {
+      "timestamp": "2026-07-04T17:45:08.785Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Agent-to-Agent Transfer Blocked: Target agent 'marketing-agent' is not attested to process PHI under HIPAA."
+    },
+    {
+      "timestamp": "2026-07-04T17:45:08.855Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Agent-to-Platform Blocked: TLS version is TLS-1.2. HIPAA requires minimum TLS-1.3."
+    },
+    {
+      "timestamp": "2026-07-04T17:45:11.305Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Unencrypted PII/PHI leak detected in database page: wiki/public-sharing-page"
+    },
+    {
+      "timestamp": "2026-07-04T17:49:26.834Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Tool 'web_search' is explicitly blocked under HIPAA controls."
+    },
+    {
+      "timestamp": "2026-07-04T17:49:26.906Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Agent-to-Agent Transfer Blocked: Target agent 'marketing-agent' is not attested to process PHI under HIPAA."
+    },
+    {
+      "timestamp": "2026-07-04T17:49:26.975Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Agent-to-Platform Blocked: TLS version is TLS-1.2. HIPAA requires minimum TLS-1.3."
+    },
+    {
+      "timestamp": "2026-07-04T17:49:27.158Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Unencrypted PII/PHI leak detected in database page: wiki/public-sharing-page"
+    },
+    {
+      "timestamp": "2026-07-04T17:54:52.335Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Tool 'web_search' is explicitly blocked under HIPAA controls."
+    },
+    {
+      "timestamp": "2026-07-04T17:54:52.407Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Agent-to-Agent Transfer Blocked: Target agent 'marketing-agent' is not attested to process PHI under HIPAA."
+    },
+    {
+      "timestamp": "2026-07-04T17:54:52.479Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Agent-to-Platform Blocked: TLS version is TLS-1.2. HIPAA requires minimum TLS-1.3."
+    },
+    {
+      "timestamp": "2026-07-04T17:54:52.661Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Unencrypted PII/PHI leak detected in database page: wiki/public-sharing-page"
+    },
+    {
+      "timestamp": "2026-07-04T17:58:37.934Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Tool 'web_search' is explicitly blocked under HIPAA controls."
+    },
+    {
+      "timestamp": "2026-07-04T17:58:38.004Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Agent-to-Agent Transfer Blocked: Target agent 'marketing-agent' is not attested to process PHI under HIPAA."
+    },
+    {
+      "timestamp": "2026-07-04T17:58:38.072Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Agent-to-Platform Blocked: TLS version is TLS-1.2. HIPAA requires minimum TLS-1.3."
+    },
+    {
+      "timestamp": "2026-07-04T17:58:38.255Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Unencrypted PII/PHI leak detected in database page: wiki/public-sharing-page"
+    },
+    {
+      "timestamp": "2026-07-04T18:05:36.040Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Tool 'web_search' is explicitly blocked under HIPAA controls."
+    },
+    {
+      "timestamp": "2026-07-04T18:05:36.109Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Agent-to-Agent Transfer Blocked: Target agent 'marketing-agent' is not attested to process PHI under HIPAA."
+    },
+    {
+      "timestamp": "2026-07-04T18:05:36.180Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Agent-to-Platform Blocked: TLS version is TLS-1.2. HIPAA requires minimum TLS-1.3."
+    },
+    {
+      "timestamp": "2026-07-04T18:05:36.364Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Unencrypted PII/PHI leak detected in database page: wiki/public-sharing-page"
+    },
+    {
+      "timestamp": "2026-07-04T18:10:06.639Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Tool 'web_search' is explicitly blocked under HIPAA controls."
+    },
+    {
+      "timestamp": "2026-07-04T18:10:06.709Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Agent-to-Agent Transfer Blocked: Target agent 'marketing-agent' is not attested to process PHI under HIPAA."
+    },
+    {
+      "timestamp": "2026-07-04T18:10:06.780Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Agent-to-Platform Blocked: TLS version is TLS-1.2. HIPAA requires minimum TLS-1.3."
+    },
+    {
+      "timestamp": "2026-07-04T18:10:06.970Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Unencrypted PII/PHI leak detected in database page: wiki/public-sharing-page"
+    },
+    {
+      "timestamp": "2026-07-04T18:14:31.083Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Tool 'web_search' is explicitly blocked under HIPAA controls."
+    },
+    {
+      "timestamp": "2026-07-04T18:14:31.156Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Agent-to-Agent Transfer Blocked: Target agent 'marketing-agent' is not attested to process PHI under HIPAA."
+    },
+    {
+      "timestamp": "2026-07-04T18:14:31.228Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Agent-to-Platform Blocked: TLS version is TLS-1.2. HIPAA requires minimum TLS-1.3."
+    },
+    {
+      "timestamp": "2026-07-04T18:14:31.412Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Unencrypted PII/PHI leak detected in database page: wiki/public-sharing-page"
+    },
+    {
+      "timestamp": "2026-07-04T18:19:59.893Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Tool 'web_search' is explicitly blocked under HIPAA controls."
+    },
+    {
+      "timestamp": "2026-07-04T18:19:59.963Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Agent-to-Agent Transfer Blocked: Target agent 'marketing-agent' is not attested to process PHI under HIPAA."
+    },
+    {
+      "timestamp": "2026-07-04T18:20:00.032Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Agent-to-Platform Blocked: TLS version is TLS-1.2. HIPAA requires minimum TLS-1.3."
+    },
+    {
+      "timestamp": "2026-07-04T18:20:00.217Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Unencrypted PII/PHI leak detected in database page: wiki/public-sharing-page"
+    },
+    {
+      "timestamp": "2026-07-04T18:22:01.975Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Tool 'web_search' is explicitly blocked under HIPAA controls."
+    },
+    {
+      "timestamp": "2026-07-04T18:22:02.045Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Agent-to-Agent Transfer Blocked: Target agent 'marketing-agent' is not attested to process PHI under HIPAA."
+    },
+    {
+      "timestamp": "2026-07-04T18:22:02.114Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Agent-to-Platform Blocked: TLS version is TLS-1.2. HIPAA requires minimum TLS-1.3."
+    },
+    {
+      "timestamp": "2026-07-04T18:22:02.295Z",
+      "type": "VIOLATION_LOGGED",
+      "details": "Unencrypted PII/PHI leak detected in database page: wiki/public-sharing-page"
+    }
+  ],
+  "violations": [
+    {
+      "timestamp": "2026-07-04T17:44:13.007Z",
+      "decision": "BLOCK",
+      "reason": "Tool 'web_search' is explicitly blocked under HIPAA controls."
+    },
+    {
+      "timestamp": "2026-07-04T17:44:13.080Z",
+      "decision": "BLOCK",
+      "reason": "Agent-to-Agent Transfer Blocked: Target agent 'marketing-agent' is not attested to process PHI under HIPAA."
+    },
+    {
+      "timestamp": "2026-07-04T17:44:13.152Z",
+      "decision": "BLOCK",
+      "reason": "Agent-to-Platform Blocked: TLS version is TLS-1.2. HIPAA requires minimum TLS-1.3."
+    },
+    {
+      "timestamp": "2026-07-04T17:45:08.713Z",
+      "decision": "BLOCK",
+      "reason": "Tool 'web_search' is explicitly blocked under HIPAA controls."
+    },
+    {
+      "timestamp": "2026-07-04T17:45:08.784Z",
+      "decision": "BLOCK",
+      "reason": "Agent-to-Agent Transfer Blocked: Target agent 'marketing-agent' is not attested to process PHI under HIPAA."
+    },
+    {
+      "timestamp": "2026-07-04T17:45:08.854Z",
+      "decision": "BLOCK",
+      "reason": "Agent-to-Platform Blocked: TLS version is TLS-1.2. HIPAA requires minimum TLS-1.3."
+    },
+    {
+      "timestamp": "2026-07-04T17:45:11.304Z",
+      "reason": "Unencrypted PII/PHI leak detected in database page: wiki/public-sharing-page",
+      "source": "gbrain_dream_cycle",
+      "pageId": "wiki/public-sharing-page"
+    },
+    {
+      "timestamp": "2026-07-04T17:49:26.834Z",
+      "decision": "BLOCK",
+      "reason": "Tool 'web_search' is explicitly blocked under HIPAA controls."
+    },
+    {
+      "timestamp": "2026-07-04T17:49:26.906Z",
+      "decision": "BLOCK",
+      "reason": "Agent-to-Agent Transfer Blocked: Target agent 'marketing-agent' is not attested to process PHI under HIPAA."
+    },
+    {
+      "timestamp": "2026-07-04T17:49:26.974Z",
+      "decision": "BLOCK",
+      "reason": "Agent-to-Platform Blocked: TLS version is TLS-1.2. HIPAA requires minimum TLS-1.3."
+    },
+    {
+      "timestamp": "2026-07-04T17:49:27.157Z",
+      "reason": "Unencrypted PII/PHI leak detected in database page: wiki/public-sharing-page",
+      "source": "gbrain_dream_cycle",
+      "pageId": "wiki/public-sharing-page"
+    },
+    {
+      "timestamp": "2026-07-04T17:54:52.334Z",
+      "decision": "BLOCK",
+      "reason": "Tool 'web_search' is explicitly blocked under HIPAA controls."
+    },
+    {
+      "timestamp": "2026-07-04T17:54:52.406Z",
+      "decision": "BLOCK",
+      "reason": "Agent-to-Agent Transfer Blocked: Target agent 'marketing-agent' is not attested to process PHI under HIPAA."
+    },
+    {
+      "timestamp": "2026-07-04T17:54:52.478Z",
+      "decision": "BLOCK",
+      "reason": "Agent-to-Platform Blocked: TLS version is TLS-1.2. HIPAA requires minimum TLS-1.3."
+    },
+    {
+      "timestamp": "2026-07-04T17:54:52.661Z",
+      "reason": "Unencrypted PII/PHI leak detected in database page: wiki/public-sharing-page",
+      "source": "gbrain_dream_cycle",
+      "pageId": "wiki/public-sharing-page"
+    },
+    {
+      "timestamp": "2026-07-04T17:58:37.933Z",
+      "decision": "BLOCK",
+      "reason": "Tool 'web_search' is explicitly blocked under HIPAA controls."
+    },
+    {
+      "timestamp": "2026-07-04T17:58:38.003Z",
+      "decision": "BLOCK",
+      "reason": "Agent-to-Agent Transfer Blocked: Target agent 'marketing-agent' is not attested to process PHI under HIPAA."
+    },
+    {
+      "timestamp": "2026-07-04T17:58:38.071Z",
+      "decision": "BLOCK",
+      "reason": "Agent-to-Platform Blocked: TLS version is TLS-1.2. HIPAA requires minimum TLS-1.3."
+    },
+    {
+      "timestamp": "2026-07-04T17:58:38.254Z",
+      "reason": "Unencrypted PII/PHI leak detected in database page: wiki/public-sharing-page",
+      "source": "gbrain_dream_cycle",
+      "pageId": "wiki/public-sharing-page"
+    },
+    {
+      "timestamp": "2026-07-04T18:05:36.039Z",
+      "decision": "BLOCK",
+      "reason": "Tool 'web_search' is explicitly blocked under HIPAA controls."
+    },
+    {
+      "timestamp": "2026-07-04T18:05:36.108Z",
+      "decision": "BLOCK",
+      "reason": "Agent-to-Agent Transfer Blocked: Target agent 'marketing-agent' is not attested to process PHI under HIPAA."
+    },
+    {
+      "timestamp": "2026-07-04T18:05:36.179Z",
+      "decision": "BLOCK",
+      "reason": "Agent-to-Platform Blocked: TLS version is TLS-1.2. HIPAA requires minimum TLS-1.3."
+    },
+    {
+      "timestamp": "2026-07-04T18:05:36.363Z",
+      "reason": "Unencrypted PII/PHI leak detected in database page: wiki/public-sharing-page",
+      "source": "gbrain_dream_cycle",
+      "pageId": "wiki/public-sharing-page"
+    },
+    {
+      "timestamp": "2026-07-04T18:10:06.638Z",
+      "decision": "BLOCK",
+      "reason": "Tool 'web_search' is explicitly blocked under HIPAA controls."
+    },
+    {
+      "timestamp": "2026-07-04T18:10:06.708Z",
+      "decision": "BLOCK",
+      "reason": "Agent-to-Agent Transfer Blocked: Target agent 'marketing-agent' is not attested to process PHI under HIPAA."
+    },
+    {
+      "timestamp": "2026-07-04T18:10:06.779Z",
+      "decision": "BLOCK",
+      "reason": "Agent-to-Platform Blocked: TLS version is TLS-1.2. HIPAA requires minimum TLS-1.3."
+    },
+    {
+      "timestamp": "2026-07-04T18:10:06.969Z",
+      "reason": "Unencrypted PII/PHI leak detected in database page: wiki/public-sharing-page",
+      "source": "gbrain_dream_cycle",
+      "pageId": "wiki/public-sharing-page"
+    },
+    {
+      "timestamp": "2026-07-04T18:14:31.082Z",
+      "decision": "BLOCK",
+      "reason": "Tool 'web_search' is explicitly blocked under HIPAA controls."
+    },
+    {
+      "timestamp": "2026-07-04T18:14:31.155Z",
+      "decision": "BLOCK",
+      "reason": "Agent-to-Agent Transfer Blocked: Target agent 'marketing-agent' is not attested to process PHI under HIPAA."
+    },
+    {
+      "timestamp": "2026-07-04T18:14:31.227Z",
+      "decision": "BLOCK",
+      "reason": "Agent-to-Platform Blocked: TLS version is TLS-1.2. HIPAA requires minimum TLS-1.3."
+    },
+    {
+      "timestamp": "2026-07-04T18:14:31.411Z",
+      "reason": "Unencrypted PII/PHI leak detected in database page: wiki/public-sharing-page",
+      "source": "gbrain_dream_cycle",
+      "pageId": "wiki/public-sharing-page"
+    },
+    {
+      "timestamp": "2026-07-04T18:19:59.892Z",
+      "decision": "BLOCK",
+      "reason": "Tool 'web_search' is explicitly blocked under HIPAA controls."
+    },
+    {
+      "timestamp": "2026-07-04T18:19:59.962Z",
+      "decision": "BLOCK",
+      "reason": "Agent-to-Agent Transfer Blocked: Target agent 'marketing-agent' is not attested to process PHI under HIPAA."
+    },
+    {
+      "timestamp": "2026-07-04T18:20:00.031Z",
+      "decision": "BLOCK",
+      "reason": "Agent-to-Platform Blocked: TLS version is TLS-1.2. HIPAA requires minimum TLS-1.3."
+    },
+    {
+      "timestamp": "2026-07-04T18:20:00.216Z",
+      "reason": "Unencrypted PII/PHI leak detected in database page: wiki/public-sharing-page",
+      "source": "gbrain_dream_cycle",
+      "pageId": "wiki/public-sharing-page"
+    },
+    {
+      "timestamp": "2026-07-04T18:22:01.974Z",
+      "decision": "BLOCK",
+      "reason": "Tool 'web_search' is explicitly blocked under HIPAA controls."
+    },
+    {
+      "timestamp": "2026-07-04T18:22:02.044Z",
+      "decision": "BLOCK",
+      "reason": "Agent-to-Agent Transfer Blocked: Target agent 'marketing-agent' is not attested to process PHI under HIPAA."
+    },
+    {
+      "timestamp": "2026-07-04T18:22:02.113Z",
+      "decision": "BLOCK",
+      "reason": "Agent-to-Platform Blocked: TLS version is TLS-1.2. HIPAA requires minimum TLS-1.3."
+    },
+    {
+      "timestamp": "2026-07-04T18:22:02.294Z",
+      "reason": "Unencrypted PII/PHI leak detected in database page: wiki/public-sharing-page",
+      "source": "gbrain_dream_cycle",
+      "pageId": "wiki/public-sharing-page"
+    }
+  ],
+  "agents": {
+    "medical-agent": {
+      "directory": "/Users/IZServices/Code/openarch/compliance/agents/medical-agent",
+      "framework": "HIPAA",
+      "configuredAt": "2026-07-04T17:54:07.046Z"
+    }
+  },
+  "gateways": {
+    "slack-dev-channel": {
+      "redact": true,
+      "lastModified": "2026-07-04T17:54:24.584Z"
+    }
+  },
+  "memory": {
+    "path": "gbrain_db.json",
+    "encryption": "AES-256-GCM",
+    "residency": "us-east-1",
+    "lastModified": "2026-07-04T17:54:24.621Z"
+  }
+}
